@@ -25,19 +25,19 @@ class EsPipeline(object):
                     "properties": {
                         "title": {"type": "text", "store": "yes", "analyzer": "ik_max_word",
                                   "search_analyzer": "ik_max_word"},
-                        "spu_id": {"type": "keyword", "store": "yes"},
-                        "category": {"type": "keyword", "store": "yes"},
-                        "desc ": {"type": "keyword", "store": "yes"},
-                        "brand ": {"type": "keyword", "store": "yes"},
-                        "site_name": {"type": "keyword", "store": "yes"},
-                        "status ": {"type": "integer", "store": "yes"},
+                        "spu_id": {"type": "keyword"},
+                        "category": {"type": "keyword"},
+                        "desc ": {"type": "keyword"},
+                        "brand ": {"type": "keyword"},
+                        "site_name": {"type": "keyword"},
+                        "status ": {"type": "integer"},
                         "sku": {"properties": {
                             "spec": {"type": "text", "store": "yes", "analyzer": "ik_max_word",
                                      "search_analyzer": "ik_max_word"},
-                            "sku_id": {"type": "keyword", "store": "yes"},
-                            "price": {"type": "float", "store": "yes"}
+                            "sku_id": {"type": "keyword"},
+                            "price": {"type": "float"}
                         }},
-                        "date": {"type": "date", "store": "yes",
+                        "date": {"type": "date",
                                  "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"}
                     }
                 }
