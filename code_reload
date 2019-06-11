@@ -1,0 +1,8 @@
+#!/bin/bash
+name="mryitao"
+current_path=`pwd`
+cp /etc/localtime ${current_path}/
+docker stop ${name} && docker rm ${name} && docker rmi ${name}:latest
+
+docker build -t ${name}:latest . && docker run --name ${name} -d --restart=on-failure:10 -e SPIDER_ENV='release' ${name}:latest
+rm ${current_path}/localtime
