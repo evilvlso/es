@@ -14,7 +14,7 @@ PyMySQL == 0.9.3
 # scrapy_fish/scrapy_fish/utils/items_.py: 10
 # scrapy_fish/scrapy_fish/utils/pipelines_.py: 16,17,18
 # scrapy_fish/scrapy_fish/utils/spider_settings.py: 13
-Scrapy == 1.6.0
+Scrapy == 1.8.2
 
 # scrapy_fish/scrapy_fish/utils/email_client.py: 14
 exchangelib == 1.12.4
