@@ -8,7 +8,7 @@ PyMySQL == 0.9.3
 # scrapy_fish/middlewares.py: 8
 # scrapy_fish/utils/base_crawler.py: 12,14,15
 # scrapy_fish/utils/spider_settings.py: 11
-Scrapy == 1.6.0
+Scrapy == 1.8.2
 
 # scrapy_fish/utils/handle_csv.py: 15
 # pandas == 0.24.2
