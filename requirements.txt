@@ -39,7 +39,7 @@ pytz == 2019.1
 # scrapy_fish/add_task.py: 18
 # scrapy_fish/scrapy_fish/utils/rabbit_manager.py: 2
 # scrapy_fish/scrapy_fish/utils/settings_.py: 13
-redis == 3.2.1
+redis == 4.4.4
 
 # scrapy_fish/scrapy_fish/utils/tools/dingtalk.py: 11
 # scrapy_fish/scrapy_fish/utils/tools/send_mail.py: 12
